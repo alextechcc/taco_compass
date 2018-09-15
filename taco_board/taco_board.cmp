@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by PcbNew   date = Wed 15 Aug 2018 03:51:49 PM EDT
+
+BeginCmp
+TimeStamp = 5B811A56
+Path = /5B719724
+Reference = SW1;
+ValeurCmp = SW_DPST;
+IdModule  = Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B80E5BB
+Path = /5B750971
+Reference = J1;
+ValeurCmp = PI_PartialHeader;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_2x11_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B80CB49
+Path = /5B7C2700
+Reference = J4;
+ValeurCmp = MPU_9250_Breakout;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B848BC9
+Path = /5B6E5F10
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = Capacitor_THT:CP_Radial_D5.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B81198F
+Path = /5B6E2F3A
+Reference = J3;
+ValeurCmp = Photo_Interrupter;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B848B2E
+Path = /5B6E5688
+Reference = J2;
+ValeurCmp = Stepper_Header;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B80CD36
+Path = /5B6DC84E
+Reference = A1;
+ValeurCmp = Pololu_Breakout_A4988;
+IdModule  = Module:Pololu_Breakout-16_15.2x20.3mm;
+EndCmp
+
+EndListe
