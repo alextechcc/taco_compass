@@ -30,7 +30,7 @@ def main():
     lat, lon = Value('d'), Value('d')
     gps_proc = GPS_Process(lat, lon)
     gps_proc.start()
-    
+
     print_state = False
     while True:
         bearing = yaw.value

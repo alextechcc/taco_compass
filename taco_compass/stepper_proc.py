@@ -7,12 +7,14 @@ from collections import namedtuple
 from multiprocessing import Process
 
 class Stepper_Process(Process):
-    stepper_pins = namedtuple('stepper_pins', ['enable', 'step', 'dir', 'sens'])
+    stepper_pins = namedtuple('stepper_pins',
+                              ['enable', 'step', 'dir', 'sens'])
     def __init__(self, target_angle, enable_pin, step_pin, dir_pin, sens_pin, steps_per_rev):
         super().__init__()
         self.daemon = True
         self.target_angle = target_angle
-        self.pins = Stepper_Process.stepper_pins(enable_pin, step_pin, dir_pin, sens_pin)
+        self.pins = Stepper_Process.stepper_pins(enable_pin, step_pin, dir_pin,
+                                                 sens_pin)
         self.pos_angle = 0
         self.steps_per_rev = steps_per_rev
         self.step_angle = 360 / self.steps_per_rev
